@@ -148,13 +148,13 @@ input.placeholder = "Enter your email";
 // Append the input element to the box 5 you selected above
 box5.append(input);
 // Create two anchor (a) element with  the text of `AltCampus` and `Google`
-let anchor1 = document.createElement('a');
+let anchorOne = document.createElement('a');
 anchor1.innerText = "Altca,pus";
-let anchor2 = document.createElement('a');
+let anchortwo = document.createElement('a');
 anchor2.innerText = "Google";
 // Change the href property of the anchor elements to `https://altcampus.school` and `https://google.com`
-anchor1.href = `https://altcampus.school`;
-anchor2.href = `https://google.com`;
+anchorOne.href = `https://altcampus.school`;
+anchortwo.href = `https://google.com`;
 
 // Append both the elements to box 5 you selected above.
-box5.append(anchor1,anchor2);
+box5.append(anchorOne,anchortwo);
